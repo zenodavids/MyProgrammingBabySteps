@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+/* CAROUSEL SECTION */
+/* .carousel-item {
+  height: 300px;
+} */
+
+.first-slide {
+  background-color: tomato;
+}
+
+.second-slide {
+  background-color: gold;
+}
+
+.third-slide {
+  background-color: cyan;
+}

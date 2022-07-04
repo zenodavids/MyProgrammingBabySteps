@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    z-index: 0;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    /* this for the links in the navbar and the reason we use px and not % is cuz we want the space to be fixed not adaptable */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+
+/* Download Buttons */
+
+.download-botton {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title-image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    /* this rotates the image. if it is positive(+), image rotates clockwise, if it is negative(-), image rotates anti-clockwise */
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.col-lg-4 {
+    text-align: center;
+    padding: 4.5%;
+    /* this pading is to make our text a bit short and more easier to read.
+  noticed it also made the h3 bolder */
+}
+
+.features i {
+    color: #ef8172;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.features h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: Montserrat;
+}
+
+.features p {
+    color: #8f8f8f;
+}
+
+.features i:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials SECTION */
+
+#testimonials {
+    position: relative;
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+
+#testimonials img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* Press Section */
+
+#press {
+    position: relative;
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+
+/* PRICING SECTION */
+
+#pricing {
+    position: relative;
+    background-color: white;
+    z-index: 2;
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 990px) {
+
+#title {
+  text-align: center;
+}
+
+.title-image {
+  width: 40%;
+  text-align: center;
+  position: static;
+  transform: rotate(0);
+}
+}

@@ -1,0 +1,67 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.h1 img {
+    filter: invert(1);
+}
+
+.navbar-brand span,
+.modal-title span,
+footer span {
+       color: #ffc107;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.modal-title h5 {
+       background-color: #000;
+}
+
+#learn .p-5 a img{
+filter: invert(1);
+width: 30%;
+}
+
+#instructors .card-body img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+#instructors .card-body a img{
+    width: 5%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+footer .top-img{
+    width: 100%;
+    filter: invert(1);
+    transform: rotate(-90deg);
+    
+}
+
+.up-box {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+
+/* breakpoint for medium screen size is 768px and down*/
+@media (min-width: 768px) {
+.news-input {
+    
+    width: 50%;
+}
+
+
+}
+

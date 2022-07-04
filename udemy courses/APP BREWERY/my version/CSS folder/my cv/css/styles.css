@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #333 no-repeat center center / cover;
+  color: #ccc;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.mainContainer {
+  position: relative;
+  text-align: center;
+
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 80%;
+}
+/* #ffc400 */
+
+.btn {
+width: 100%
+padding: 3%;
+}
+
+a {
+  border-radius: 10%;
+  padding: 7%;
+  font-size: 1rem;
+  text-decoration: none;
+
+}
+/* TypeWriter */
+
+.container {
+  text-align: center;
+  height: 100%;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+  bottom: 80px;
+}
+
+h1, h2 {
+  font-weight: 200;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+
+/* end of TypeWriter */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px) {
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+  .logo img {
+    width: 100%;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    text-align: center;
+    height: 100%;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+    bottom: 170px;
+    left: 20px;
+  }
+
+}

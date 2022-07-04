@@ -1,0 +1,36 @@
+            body {
+                margin: 0;
+            }
+            
+            .first-container {
+                background-color: tomato;
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                right: 0;
+            }
+            
+            .second-container {
+                background-color: skyblue;
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            
+            .third-container {
+                background-color: gold;
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                top: 0;
+                left: 100px;
+            }
+            
+            .parent {
+                height: 1000px;
+                width: 300px;
+                background-color: darkblue;
+                position: relative;
+            }

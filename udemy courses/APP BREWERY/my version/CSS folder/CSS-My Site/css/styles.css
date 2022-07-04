@@ -1,0 +1,128 @@
+            body {
+                margin: 0;
+                text-align: center;
+                font-family: 'Merriweather', serif;
+            }
+            
+            h1 {
+                color: #66bfbf;
+                margin: 50px auto 0 auto;
+                font-family: 'Sacramento', cursive;
+                font-size: 5.625rem;
+            }
+            
+            h2 {
+                color: #66bfbf;
+                font-size: 2.5rem;
+            }
+            
+            h3 {
+                color: #11999e;
+            }
+            
+            a {
+                color: #11999e;
+                text-decoration: none;
+            }
+            
+            #programmer {
+                font-weight: normal;
+            }
+            
+            .profile img {
+                width: 20%;
+            }
+            
+            .profile p {
+                color: #40514e;
+            }
+            
+            .skill-row {
+                width: 50%;
+                margin: 100px auto;
+                text-align: left;
+                line-height: 2;
+            }
+            
+            .top-container {
+                background-color: #eaf6f6;
+                padding-top: 100px;
+                position: relative;
+                margin-bottom: 100px;
+            }
+            
+            .topcloud {
+                position: absolute;
+                right: 300px;
+                top: 50px;
+            }
+            
+            .bottomcloud {
+                position: absolute;
+                bottom: 300px;
+                left: 300px;
+            }
+            
+            span {
+                text-decoration: underline;
+            }
+            
+            hr {
+                border-color: #eaf6f6;
+                border-style: none;
+                border-top-style: dotted;
+                border-width: 10px;
+                height: 0px;
+                width: 5%;
+            }
+            
+            .fashion-img {
+                width: 25%;
+                float: left;
+                margin-right: 30px;
+            }
+            
+            .dance-img {
+                width: 25%;
+                float: right;
+                margin-left: 30px;
+            }
+            /*CONTACT ME button styles*/
+            
+            .BUTTON_FWM {
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                color: #FFFFFF;
+                font-family: Verdana;
+                font-size: 1rem;
+                font-weight: 500;
+                padding: 10px;
+                background-color: #66BFBF;
+                display: inline-block;
+                cursor: pointer;
+                text-align: center;
+            }
+            
+            .BUTTON_FWM:hover {
+                color: #66bfbf;
+                background: white;
+                border: solid #66bfbf 1px;
+                -webkit-border-radius: 41px;
+                -moz-border-radius: 41px;
+                border-radius: 41px;
+                text-decoration: none;
+            }
+            
+            .bottom-container {
+                background-color: #66bfbf;
+                padding: 20px;
+            }
+            
+            .bottom-container a {
+                color: #11999e;
+            }
+            
+            .bottom-container a:hover {
+                color: white;
+            }

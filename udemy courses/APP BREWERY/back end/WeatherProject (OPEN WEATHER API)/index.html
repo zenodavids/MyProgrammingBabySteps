@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- we use 'post' as the value for the method attribute in the form tag because we are POSTING the expected results to the client-side -->
+    <form action="/" method="POST">
+      <!-- the value of the name attribute wil be used to REQUIRE(req) the inputs tags in the backend as 'req.body.(name)' -->
+      <input type="text" name="city" placeholder="city" />
+      <input
+        type="text"
+        name="unit"
+        placeholder="Unit (metric, celcuis etc...)"
+      />
+      <input type="submit" name="Go" />
+    </form>
+  </body>
+</html>

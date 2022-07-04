@@ -1,0 +1,49 @@
+body {
+    background-color: #eaf6f6;
+}
+
+hr {
+    border-color: rgb(207, 207, 207);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    height: 0px;
+    width: 5%;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    color: #66bfbf;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+a {
+    text-decoration: none;
+    color: #006064;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #66bfbf;
+}
+
+li {
+    color: #006064;
+}
+
+p {
+    color: #006064;
+}
+
+
+/*contact me page*/
+
+form input,
+textarea {
+    color: #66bfbf;
+}

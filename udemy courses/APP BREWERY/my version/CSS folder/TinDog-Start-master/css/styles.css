@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#title {
+    text-align: left;
+    background-color: #ff4c68;
+    color: rgb(54, 41, 41);
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+/* Headings */
+
+.bigHeading {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+    /* this for the links in the navbar and the reason we use px and not % is cuz we want the space to be fixed not adaptable */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+
+/* Download Buttons */
+
+.download-botton {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title-image */
+
+.title-image {
+    margin-top: 30px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 15%;
+    /* this rotates the image. if it is positive(+), image rotates clockwise, if it is negative(-), image rotates anti-clockwise */
+}
+
+.title-image img {
+    width: 75%;
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.col-lg-4 {
+        padding: 4.5%;
+    /* this pading is to make our text a bit short and more easier to read.
+  noticed it also made the h3 bolder */
+}
+
+.features i {
+    color: #ef8172;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.features p {
+    color: #8f8f8f;
+}
+
+.features i:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials SECTION */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+#testimonials img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+
+/* PRICING SECTION */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* CALL TO ACTION SECTION */
+
+.cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    margin: 0;
+}
+
+
+#footer {
+
+    padding: 7% 15%;
+}
+
+#footer a {
+    color: black;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        
+        position: static;
+        transform: rotate(0);
+    }
+}
+

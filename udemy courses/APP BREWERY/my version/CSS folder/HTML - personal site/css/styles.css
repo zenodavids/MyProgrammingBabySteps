@@ -1,0 +1,204 @@
+/*for the homepage*/
+
+.trouble li a:hover {
+    color: white;
+    font-weight: 800;
+}
+
+.homepage {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    border-radius: 15%;
+    text-align: center;
+    height: 200px;
+    transform-style: preserve-3d;
+    perspective: 300px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    transform-style: preserve-3d;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+
+.homepage li {
+    border: 0;
+    background-color: black;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.homepage li {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+
+/*for my profile*/
+
+#profile body {
+    background-color: #eaf6f6;
+}
+
+hr {
+    border-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    height: 0px;
+    width: 20%;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    color: #66bfbf;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+a {
+    text-decoration: none;
+    color: #006064;
+}
+
+a:hover {
+    color: aqua;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #66bfbf;
+}
+
+li {
+    color: #006064;
+}
+
+p {
+    color: #006064;
+}
+
+
+/*for the contact page*/
+
+.contactform {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    background-color: black;
+}
+
+.contactBody {
+    background: url(/images/corporate-backgd.mp4);
+}
+
+.contactBody video {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    right: 35%;
+    transform: translate(-50% -50%);
+    border-radius: 15%;
+    text-align: center;
+    transform: translate(-50% -50%);
+    border-radius: 15%;
+    text-align: center;
+    height: 314px;
+    transform-style: preserve-3d;
+    perspective: 300px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    transform-style: preserve-3d;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+
+.box input[type="text"],
+.box input[type="email"] {
+    border: 0;
+    background-color: black;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box textarea {
+    border: 0;
+    background-color: black;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 34px;
+    transition: 0.25s;
+}
+
+.box textarea:focus,
+.box input[type="text"]:focus,
+.box input[type="email"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background-color: black;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+
+/*happy page*/
+
+.happy body {
+    background: url(/images/video.mp4);
+    width: 100%;
+}
